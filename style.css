@@ -6,14 +6,6 @@
     rgba(27, 26, 26, 1) 0%,
     rgba(54, 95, 143, 1) 100%
   );
-  --color-grey-2: #b2becd;
-  --color-grey-4: #454e56;
-}
-
-.light-mode {
-  --color-grey-2: #6c7983;
-  --color-light: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
-  --color-grey-4: #454e56;
 }
 
 * {
@@ -125,30 +117,4 @@ a {
     display: flex;
     flex-wrap: wrap;
   }
-}
-
-.theme-btn {
-  top: 5%;
-  right: 3%;
-  width: 8vh;
-  height: 8vh;
-  border-radius: 50%;
-  background-color: var(--color-grey-4);
-  cursor: pointer;
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
-  transition: all 0.1s ease-in-out;
-}
-
-.theme-btn:active {
-  transform: translateY(-3px);
-}
-
-.theme-btn i {
-  font-size: 1.4rem;
-  color: var(--color-grey-2);
-  pointer-events: none;
 }
