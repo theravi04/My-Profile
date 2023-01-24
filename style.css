@@ -47,11 +47,21 @@ img {
   font-size: 25px;
 }
 
+.about {
+  margin-top: 12px;
+  font-family: "Source Code Pro", monospace;
+  text-transform: none;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+}
+
 .flex-social-icons {
   display: flex;
   justify-content: center;
   margin-left: 50%;
-  margin-top: 25px;
+  margin-top: 30px;
   height: 10px;
   width: 10px;
   column-gap: 25px;
@@ -98,7 +108,18 @@ a {
     display: flex;
     text-align: center;
   }
+  .about {
+    display: flex;
+    text-align: center;
+  }
   .myskills {
+    display: flex;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px){
+  .about {
     display: flex;
     text-align: center;
   }
